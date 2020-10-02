@@ -6,7 +6,7 @@
         <meta name="author" content="Мария Воронько">
         <meta name="description" content="Моё портфолио.">
         <meta name="keywords" content="Мария, портфолио, контакты, о себе">
-        <link rel="stylesheet" href="css/outlines.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
@@ -15,7 +15,7 @@
                 <h1>Мария Воронько</h1>
             </section>
             <section>
-                <img src="resources/image.png" alt="image" />
+                <img src="resources/image.png" width="200" hight="300" alt="image" />
                 <h2>О себе</h2>
                 <p>Я студентка третьего курса университета ИТМО в Санкт-Петербурге. 
                     Учусь на факультете информационных технологий и программирования. 
@@ -24,6 +24,7 @@
                     я и планирую связать свою карьеру.</p>
                 <p>А еще я в школе неплохо знала физику. Вот вам закон радиоактивного распада, если что:</p>
                 <p>N = N<sub>0</sub> * 1/2<sup>n</sup></p>
+                <p><a href="#contacts">Мои контакты</a></p>
             </section>
         </header>
         <main>            
@@ -68,16 +69,14 @@
                 </code></pre>
             </section>
             <section>
-                <blockquote>
+                <div class="quote"><blockquote>
                     Для каждой сложной задачи существует решение, которое является быстрым, простым и неправильным.
-                </blockquote>
-                <cite>H. L. Mencken</cite>
+                </blockquote><cite>H. L. Mencken</cite></div>                
             </section>
-
         </main>
         <footer>
-            <section>
-                <h3>Контакты:</h3>
+            <section id="contacts" class="contacts">
+                <h2>Контакты:</h2>
                 <ul>
                     <a href="mailto:mari.voronko@mail.ru">
                         <li>Email</li>
