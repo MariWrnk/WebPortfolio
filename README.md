@@ -13,3 +13,5 @@ Code, IntelliJ IDEA, PhpStorm и так далее) - на ваш выбор.
 6) Приступить к написанию сайта.
 
 Макет: https://drive.google.com/file/d/1CMT6k-Buf-hdE9pgXiGcWHoSE2_r4BTa/view?usp=sharing
+
+Просмотр веб-станицы: https://mariwrnk.github.io/WebPortfolio/
