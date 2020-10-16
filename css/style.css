@@ -10,7 +10,7 @@ section{
 }
 h1{
     font-size: 300%;
-    padding-left: 35%;
+    text-align: center;
 }
 h2{
     font-size: 150%;
@@ -25,10 +25,49 @@ p{
 b{
     font-style: italic;
 }
+img{
+    float: left;
+    margin: 2%;
+    width: 20%;
+}
 #contacts{
     margin: 0;
     padding: 10px;
 }
+#contref{
+    color: #580e51;
+}
 .quote{
     border: dotted #270707;
+}
+.aboutme{
+    width: 70%;
+    float: right;
+    margin: 2%;
+}
+.clearfix{
+    height: 0px; 
+    clear: both; 
+} 
+.achievements{
+    width: 30%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.tanimal{
+    width: 60%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.ach_and_an{
+    display: flex;    
+}
+.hcont{
+    text-align: center;
+}
+.cbuttons{    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
