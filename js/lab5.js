@@ -74,3 +74,14 @@ function quickSort(array, left = 0, right = array.length - 1){
 
 quickSort(array);
 console.log(array);
+
+let tags = function(){
+    let tags = Array.from(document.getElementsByTagName('*')).map(node => node.tagName)
+    const utags = new Set(tags)
+    utags.forEach(function(item, i, utags) {
+        console.log(item + ' - ' + document.getElementsByTagName(item).length)
+    });
+    console.log(utags)
+}
+
+tags()

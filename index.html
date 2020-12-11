@@ -6,20 +6,10 @@
         <meta name="author" content="Мария Воронько">
         <meta name="description" content="Моё портфолио.">
         <meta name="keywords" content="Мария, портфолио, контакты, о себе">
-        <link rel="stylesheet" href="css/style.css">
-        <script> 
-			function countTags() {
-                let tags = Array.from(document.getElementsByTagName('*')).map(node => node.tagName)
-                const utags = new Set(tags)
-                utags.forEach(function(item, i, utags) {
-                    console.log(item + ' - ' + document.getElementsByTagName(item).length)
-                });
-                console.log(utags)
-			}
-		</script>
+        <link rel="stylesheet" href="css/style.css">     
     </head>
 
-    <body onload="countTags()">
+    <body>
         <header>
             <section>
                 <h1>Мария Воронько</h1>
@@ -110,6 +100,7 @@
                 </div>                
             </section>
         </footer>
+        <script src="js/lab5.js"></script>
         <script src="js/lab6.js"></script>
     </body>
 </html>
