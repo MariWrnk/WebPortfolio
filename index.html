@@ -25,7 +25,7 @@
                 <h1>Мария Воронько</h1>
             </section>
             <section>
-                <img src="resources/image.png" width="250" hight="350" alt="image" />
+                <img src="resources/image.png" width="250" hight="350" alt="image" id="avatar"/>
                 <div class="aboutme">
                     <h2>О себе</h2>
                     <p>Я студентка третьего курса университета ИТМО в Санкт-Петербурге. 
@@ -91,19 +91,25 @@
         </main>
         <footer>
             <section id="contacts">
-                <h2 class="hcont">Контакты:</h2>
-                <ul class="cbuttons">
-                    <a href="mailto:mari.voronko@mail.ru">
-                        <li>Email</li>                        
-                    </a>
-                    <a href="https://github.com/MariWrnk">
-                        <li>GitHub</li>                        
-                    </a>
-                    <a href="https://t.me/marriwrnk">
-                        <li>Telegram</li>                        
-                    </a>     
-                </ul>
+                <button id="cont_button">Контакты</button>
+                <div id="popUpCont">                    
+                    <h2 class="hcont">Контакты:</h2>
+                    <ul class="cbuttons">
+                        <a href="mailto:mari.voronko@mail.ru">
+                            <li>Email</li>                        
+                        </a>
+                        <a href="https://github.com/MariWrnk">
+                            <li>GitHub</li>                        
+                        </a>
+                        <a href="https://t.me/marriwrnk">
+                            <li>Telegram</li>                        
+                        </a>     
+                    </ul>
+                    <button id="cont_close">Закрыть</button>
+                    <div class="clearfix"></div>
+                </div>                
             </section>
         </footer>
+        <script src="js/lab6.js"></script>
     </body>
 </html>

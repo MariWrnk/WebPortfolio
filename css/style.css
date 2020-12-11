@@ -33,6 +33,7 @@ img{
 #contacts{
     margin: 0;
     padding: 10px;
+    text-align: center;
 }
 #contref{
     color: #580e51;
@@ -70,4 +71,27 @@ img{
     justify-content: space-around;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+#cont_button{
+    background-color:  rgb(68, 18, 18);
+    color: white;
+    font-size: 40px;
+    width: 30%;
+    height: 60px;
+}
+#popUpCont{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 40%;
+    height: 25%;
+    bottom: 40%;
+    left: 28%;   
+    background-color:#C7B7B7;
+    border-style: double;
+    border-color: #270707;
+    border-width: 5px;
+}
+#cont_close{
+    background-color: #C7B7B7;
 }
