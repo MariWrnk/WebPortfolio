@@ -77,11 +77,17 @@ console.log(array);
 
 let tags = function(){
     let tags = Array.from(document.getElementsByTagName('*')).map(node => node.tagName)
-    const utags = new Set(tags)
-    utags.forEach(function(item, i, utags) {
-        console.log(item + ' - ' + document.getElementsByTagName(item).length)
+    let counts = new Map
+
+    tags.forEach(function(tag, i, tags) {
+        if(!counts.has(tag)){
+            counts.set(tag, 1)
+        }else{
+            counts.set(tag, counts.get(tag) + 1)
+        }
+
     });
-    console.log(utags)
+    console.log(counts)
 }
 
 tags()
