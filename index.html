@@ -7,9 +7,19 @@
         <meta name="description" content="Моё портфолио.">
         <meta name="keywords" content="Мария, портфолио, контакты, о себе">
         <link rel="stylesheet" href="css/style.css">
+        <script> 
+			function countTags() {
+                let tags = Array.from(document.getElementsByTagName('*')).map(node => node.tagName)
+                const utags = new Set(tags)
+                utags.forEach(function(item, i, utags) {
+                    console.log(item + ' - ' + document.getElementsByTagName(item).length)
+                });
+                console.log(utags)
+			}
+		</script>
     </head>
 
-    <body>
+    <body onload="countTags()">
         <header>
             <section>
                 <h1>Мария Воронько</h1>
